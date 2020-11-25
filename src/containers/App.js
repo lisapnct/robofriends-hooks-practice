@@ -12,7 +12,6 @@ const App = () => {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((res) => res.json())
       .then((robots) => setRobots(robots));
-    console.log(count);
   }, []);
 
   const onSearchChange = (event) => {
